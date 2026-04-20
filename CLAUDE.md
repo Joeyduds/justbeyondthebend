@@ -8,11 +8,17 @@ This is a clean, professional site that represents the LLC as a holding company.
 - **Production:** justbeyondthebend.com (managed via Cloudflare DNS → Vercel)
 
 ## Tech Stack
-TBD — to be decided during initial planning session.
-Likely options: Astro, Next.js, or plain HTML/CSS/JS depending on complexity.
+- **Framework:** Astro (static output)
+- **Styling:** Tailwind CSS v4 (via `@tailwindcss/vite`)
+- **Package manager:** npm
 
 ## Dev Commands
-(To be filled in once stack is chosen)
+```bash
+npm install          # Install dependencies
+npm run dev          # Dev server at http://localhost:4321
+npm run build        # Production build → dist/
+npm run preview      # Preview production build locally
+```
 
 ## Notes
 - Separate from the Reading App project (goodreading.co)
