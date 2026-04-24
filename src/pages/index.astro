@@ -40,22 +40,40 @@ import '../styles/global.css';
         <h2 style="font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #888; margin: 0 0 2rem;">
           Ventures
         </h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
+        <div style="display: flex; flex-direction: column; gap: 1.25rem;">
 
-          <!-- GoodReading.co card -->
-          <a href="https://goodreading.co" target="_blank" rel="noopener noreferrer"
-             style="display: block; background-color: #EDE4F7; border: 2px solid #D4C0EE; border-radius: 1rem; padding: 2rem; text-decoration: none;">
-            <div style="font-size: 1.5rem; margin-bottom: 1rem;">📖</div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #1A1A1A; margin: 0 0 0.5rem;">GoodReading.co</h3>
-            <p style="font-size: 0.95rem; line-height: 1.55; color: #555; margin: 0 0 1.25rem;">
-              A gamified reading curriculum for early readers.
-            </p>
-            <span style="font-size: 0.8rem; font-weight: 600; color: #6B3FA0; letter-spacing: 0.02em;">
-              goodreading.co →
-            </span>
-          </a>
+          <!-- Row 1: active ventures -->
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem;">
 
-          <!-- Placeholder card -->
+            <!-- GoodReading.co card -->
+            <a href="https://goodreading.co" target="_blank" rel="noopener noreferrer"
+               style="display: block; background-color: #EDE4F7; border: 2px solid #D4C0EE; border-radius: 1rem; padding: 2rem; text-decoration: none;">
+              <div style="font-size: 1.5rem; margin-bottom: 1rem;">📖</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: #1A1A1A; margin: 0 0 0.5rem;">GoodReading.co</h3>
+              <p style="font-size: 0.95rem; line-height: 1.55; color: #555; margin: 0 0 1.25rem;">
+                A gamified reading curriculum for early readers.
+              </p>
+              <span style="font-size: 0.8rem; font-weight: 600; color: #6B3FA0; letter-spacing: 0.02em;">
+                goodreading.co →
+              </span>
+            </a>
+
+            <!-- WhatInTheWorld.co card -->
+            <a href="https://whatintheworld.co" target="_blank" rel="noopener noreferrer"
+               style="display: block; background-color: #FDEAEA; border: 2px solid #F5C4C4; border-radius: 1rem; padding: 2rem; text-decoration: none;">
+              <div style="font-size: 1.5rem; margin-bottom: 1rem;">🌍</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: #1A1A1A; margin: 0 0 0.5rem;">WhatInTheWorld.co</h3>
+              <p style="font-size: 0.95rem; line-height: 1.55; color: #555; margin: 0 0 1.25rem;">
+                Curious questions. Real answers. For kids who wonder about everything.
+              </p>
+              <span style="font-size: 0.8rem; font-weight: 600; color: #B03030; letter-spacing: 0.02em;">
+                whatintheworld.co →
+              </span>
+            </a>
+
+          </div>
+
+          <!-- Row 2: placeholder -->
           <div style="background-color: #F3F3F0; border: 2px dashed #D8D8D2; border-radius: 1rem; padding: 2rem; display: flex; flex-direction: column; justify-content: center;">
             <div style="font-size: 1.5rem; margin-bottom: 1rem;">✦</div>
             <h3 style="font-size: 1.1rem; font-weight: 700; color: #AAA; margin: 0 0 0.5rem;">More coming soon</h3>
