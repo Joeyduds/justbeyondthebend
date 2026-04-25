@@ -9,6 +9,18 @@ import '../styles/global.css';
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="Just Beyond The Bend LLC — independent ventures, intentionally built." />
     <title>Just Beyond The Bend</title>
+    <style>
+      .ventures-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+      }
+      @media (min-width: 600px) {
+        .ventures-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
   </head>
   <body style="background-color: #FAFAF8; color: #1A1A1A; font-family: 'Trebuchet MS', Trebuchet, sans-serif; margin: 0;">
 
@@ -43,7 +55,7 @@ import '../styles/global.css';
         <div style="display: flex; flex-direction: column; gap: 1.25rem;">
 
           <!-- Row 1: active ventures -->
-          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem;">
+          <div class="ventures-grid">
 
             <!-- GoodReading.co card -->
             <a href="https://goodreading.co" target="_blank" rel="noopener noreferrer"
