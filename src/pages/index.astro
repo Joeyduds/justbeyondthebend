@@ -20,11 +20,6 @@ import '../styles/global.css';
           grid-template-columns: repeat(2, 1fr);
         }
       }
-      @media (min-width: 900px) {
-        .ventures-grid {
-          grid-template-columns: repeat(3, 1fr);
-        }
-      }
     </style>
   </head>
   <body style="background-color: #FFFBF0; color: #1A1A1A; font-family: 'Trebuchet MS', Trebuchet, sans-serif; margin: 0;">
@@ -88,6 +83,11 @@ import '../styles/global.css';
               </span>
             </a>
 
+          </div>
+
+          <!-- Row 2: FabVocab + placeholder -->
+          <div class="ventures-grid">
+
             <!-- FabVocab card -->
             <a href="https://fabvocab.com" target="_blank" rel="noopener noreferrer"
                style="display: block; background-color: #E8F4E8; border: 2px solid #B8D8B8; border-radius: 1rem; padding: 2rem; text-decoration: none;">
@@ -101,15 +101,15 @@ import '../styles/global.css';
               </span>
             </a>
 
-          </div>
+            <!-- Placeholder -->
+            <div style="background-color: #F3F3F0; border: 2px dashed #D8D8D2; border-radius: 1rem; padding: 2rem; display: flex; flex-direction: column; justify-content: center;">
+              <div style="font-size: 1.5rem; margin-bottom: 1rem;">✦</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: #AAA; margin: 0 0 0.5rem;">More coming soon</h3>
+              <p style="font-size: 0.95rem; line-height: 1.55; color: #BBB; margin: 0;">
+                The next venture is just beyond the bend.
+              </p>
+            </div>
 
-          <!-- Row 2: placeholder -->
-          <div style="background-color: #F3F3F0; border: 2px dashed #D8D8D2; border-radius: 1rem; padding: 2rem; display: flex; flex-direction: column; justify-content: center;">
-            <div style="font-size: 1.5rem; margin-bottom: 1rem;">✦</div>
-            <h3 style="font-size: 1.1rem; font-weight: 700; color: #AAA; margin: 0 0 0.5rem;">More coming soon</h3>
-            <p style="font-size: 0.95rem; line-height: 1.55; color: #BBB; margin: 0;">
-              The next venture is just beyond the bend.
-            </p>
           </div>
 
         </div>
